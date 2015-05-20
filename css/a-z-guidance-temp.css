@@ -1,0 +1,151 @@
+
+/* IM guidance links stuff */
+
+
+#guidance-links .guidance-item {
+background: #f3f3f3 !important;
+border-bottom: 2px solid #ddd;
+margin: 2% 0;
+
+}
+	.select-float h2{
+		font-family: 'Bitter', serif;
+font-weight: 400;
+font-size: 1.3em;
+color: #fff;
+display:inline-block;
+float:left;
+	}
+  	.select-float{
+		text-align:center;
+width:auto;
+	margin-left:auto;
+margin-right:auto;
+	padding-bottom:10px;
+	background-color:transparent;
+	height:auto;
+	overflow:hidden;
+	}
+
+.guidance-item h3 a[href$=".pdf"]:after {
+    content: "";
+}
+.guidance-item h3 a[href$=".xls"]:after {
+    content: "";
+}
+.guidance-item h3 a[href$=".doc"]:after {
+    content: "";
+}
+
+span.guidance-description {
+	display: block;
+	line-height: 1.6;
+	margin: .3em 0 1em 0;
+}
+
+.file-meta, .title-file-meta{
+	color:#555555;
+	font-family: 'Open Sans', sans-serif;
+font-size: .75em;
+	display: inline-block;
+	background: none;
+}
+
+.file-meta {
+	font-size: .85em;
+}
+
+
+.post-edit-link {
+		font-family: 'Open Sans', sans-serif;
+	font-size: .6em;
+	font-weight: 700;
+	background: #099;
+	color: #fff !important;
+	padding: 3px 5px;
+	text-transform: uppercase;
+}
+
+	
+@media only screen and (max-width: 768px) {
+select {
+	width:100%;
+	background-color: #f3f3f3;
+	height:30px;	
+	border:1px solid #CCC;
+	margin-right:20px;
+	margin-bottom:5px;
+	}
+}
+	
+@media only screen and (min-width: 769px) {
+
+select {
+	background-color: #f3f3f3;
+		border:1px solid #CCC;
+	width:auto;
+	}
+
+
+ .select-float h2{
+float:none !important;
+	}
+	
+	input[type="submit"] {
+color: #fff;
+padding: 0.5em;
+margin: 0;
+display: inline-block;
+width:auto;
+}
+	
+
+
+  	.select-float{
+		text-align:center;
+width:auto;
+	margin-left:auto;
+margin-right:auto;
+	padding:0 10px;
+		padding-bottom:0px;
+	background-color:transparent;
+	height:auto;
+	overflow:hidden;
+	}
+
+
+
+
+
+
+.link-list {
+	list-style: outside url("<?php bloginfo("stylesheet_directory");?>/images/global/list-link-bullet.png") !important;
+
+}
+.link-list li {
+	float:left;
+	margin-right:10px;
+	width:100%;
+}
+
+span.guidance-selected{
+background-color:#FCE45C;	
+}
+
+span.flag{
+background: rgba(252,228,92,.85);	
+padding:2px;
+margin-right:2px;
+
+}
+
+span.flag a{
+text-decoration:none;	
+}
+
+span.flag a:hover {
+	text-decoration: underline;
+}
+
+
+}
